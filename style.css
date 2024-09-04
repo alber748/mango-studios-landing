@@ -1,0 +1,52 @@
+.button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+      outline: none;
+  }
+  
+  .button:focus-visible {
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      border-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:disabled {
+      pointer-events: none;
+      opacity: 0.5;
+  }
+  
+  .button {
+      height: 2.5rem;
+      padding-left: 1rem; 
+      padding-right: 1rem; 
+      padding-top: 0.5rem; 
+      padding-bottom: 0.5rem;
+  }
+
+  .bg-gradient {
+    background: rgb(213,255,245);
+    background: -moz-linear-gradient(0deg, rgba(213,255,245,1) 0%, rgba(248,250,252,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(213,255,245,1) 0%, rgba(248,250,252,1) 100%);
+    background: linear-gradient(0deg, rgba(213,255,245,1) 0%, rgba(248,250,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgb(213,255,245)",endColorstr="#f8fafc",GradientType=1);
+  }
+  .bg-teal {
+    background: rgb(213,255,245);
+  }
+  .bg-gradient-secondary{
+    background: rgb(13,149,137);
+    background: -moz-linear-gradient(0deg, rgba(13,149,137,1) 0%, rgba(213,255,245,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(13,149,137,1) 0%, rgba(213,255,245,1) 100%);
+    background: linear-gradient(0deg, rgba(13,149,137,1) 0%, rgba(213,255,245,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d9589",endColorstr="#d5fff5",GradientType=1);     
+}
+
+  .bg-end-gradient {
+    background-color: #0d9589;
+  }

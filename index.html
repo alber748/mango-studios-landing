@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mango Studios</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-50">
+      <header class="container mx-auto h-16 flex items-center justify-between px-10">
+            <a href="" class="text-2xl font-bold text-teal-600 flex items-center justify-center">
+                  <img class="w-10" src="./assets/logo.png" alt=""> Mango Studios
+            </a>
+            <nav class="hidden md:flex space-x-4">
+                  <a href="" class="hover:text-teal-600">
+                        Servicios
+                  </a>
+                  <a href="" class="hover:text-teal-600">
+                        Proyectos
+                  </a>
+                  <a href="" class="hover:text-teal-600">
+                        Acerca de
+                  </a>
+            </nav>
+            <div>
+                  <button class="button bg-rose-500 text-white hover:bg-rose-600">
+                        Contáctanos
+                  </button>
+            </div>
+      </header>
+      <main>
+            <section class="bg-slate-50 mx-auto py-20 px-4">
+                  <div class="container">
+                        <div class="mx-auto max-w-3xl">
+                              <h1 class="text-5xl font-bold mb-6 text-rose-500">
+                                    Juicy Software Solutions
+                              </h1>
+                              <p class="text-xl mb-8 text-gray-700">
+                                    We create innovative and fresh software solutions to help your business grow and
+                                    ripen in the digital age.
+                              </p>
+                              <button class="button bg-teal-600 text-white hover:bg-teal-700">
+                                    Get Started
+                              </button>
+                        </div>
+                  </div>
+
+            </section>
+            <section class="bg-gradient py-20">
+                  <div class="container mx-auto px-4">
+                        <h2 class="text-3xl font-bold mb-12 text-center text-teal-700">Technologies We Use</h2>
+                        <div class="relative overflow-hidden">
+                              <div class="flex transition-transform duration-500 ease-in-out" id="tech-slider">
+                                    <!-- Aquí se insertarán los elementos de tecnología -->
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="bg-teal mx-auto py-20 px-4">
+                  <div class="container mx-auto px-4">
+                        <h2 class="text-3xl font-bold mb-12 text-center text-teal-700">Our Services</h2>
+                        <div class="grid md:grid-cols-3 gap-8">
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-globe w-10 h-10 mb-2 text-rose-500" data-id="29">
+                                                <circle cx="12" cy="12" r="10"></circle>
+                                                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                                                <path d="M2 12h20"></path>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                Web Development
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Create responsive and dynamic websites tailored to your needs.
+                                    </div>
+                              </div>
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-smartphone w-10 h-10 mb-2 text-rose-500"
+                                                data-id="34">
+                                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                                <path d="M12 18h.01"></path>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                Mobile Apps
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Develop cross-platform mobile applications for iOS and Android.
+                                    </div>
+                              </div>
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-database w-10 h-10 mb-2 text-rose-500"
+                                                data-id="39">
+                                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                                <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                                                <path d="M3 12A9 3 0 0 0 21 12"></path>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                Cloud Solutions
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Implement scalable and secure cloud infrastructure for your business.
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="bg-teal mx-auto py-20 px-4">
+                  <div class="container mx-auto px-4">
+                        <h2 class="text-3xl font-bold mb-12 text-center text-teal-700">Our Proyects</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-briefcase w-10 h-10 mb-2 text-rose-500"
+                                                data-id="48">
+                                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                FreshFruit E-commerce
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Developed a responsive e-commerce platform for a local fruit delivery service,
+                                          increasing their online sales by 200%.
+                                    </div>
+                                    <div class="px-6 pb-4">
+                                          <button class="button border text-rose-500 border-rose-500 hover:bg-rose-50 ">
+                                                Ver proyecto
+                                          </button>
+                                    </div>
+                              </div>
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-briefcase w-10 h-10 mb-2 text-rose-500"
+                                                data-id="48">
+                                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                FreshFruit E-commerce
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Developed a responsive e-commerce platform for a local fruit delivery service,
+                                          increasing their online sales by 200%.
+                                    </div>
+                                    <div class="px-6 pb-4">
+                                          <button class="button border text-rose-500 border-rose-500 hover:bg-rose-50 ">
+                                                Ver proyecto
+                                          </button>
+                                    </div>
+                              </div>
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-briefcase w-10 h-10 mb-2 text-rose-500"
+                                                data-id="48">
+                                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                FreshFruit E-commerce
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Developed a responsive e-commerce platform for a local fruit delivery service,
+                                          increasing their online sales by 200%.
+                                    </div>
+                                    <div class="px-6 pb-4">
+                                          <button class="button border text-rose-500 border-rose-500 hover:bg-rose-50 ">
+                                                Ver proyecto
+                                          </button>
+                                    </div>
+                              </div>
+                              <div
+                                    class="rounded-lg border text-card-foreground bg-white shadow-lg hover:shadow-xl transition duration-300">
+                                    <div class="flex flex-col space-y-1.5 p-6">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-briefcase w-10 h-10 mb-2 text-rose-500"
+                                                data-id="48">
+                                                <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                          </svg>
+                                          <h3
+                                                class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight text-teal-600">
+                                                FreshFruit E-commerce
+                                          </h3>
+                                    </div>
+                                    <div class="p-6">
+                                          Developed a responsive e-commerce platform for a local fruit delivery service,
+                                          increasing their online sales by 200%.
+                                    </div>
+                                    <div class="px-6 pb-4">
+                                          <button class="button border text-rose-500 border-rose-500 hover:bg-rose-50 ">
+                                                Ver proyecto
+                                          </button>
+                                    </div>
+                              </div>
+
+                        </div>
+                  </div>
+            </section>
+            <section class="bg-gradient-secondary mx-auto py-20 px-4">
+                  <div class="container mx-auto px-4">
+                        <h2 class="text-3xl font-bold mb-12 text-center text-teal-700">Contactanos</h2>
+                        <div class="container mx-auto px-4" data-id="80">
+                              <form class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg border" data-id="82">
+                                    <div class="mb-6" data-id="83"><input
+                                                class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 border-teal-300 focus:border-teal-500"
+                                                id="name" placeholder="Your Name" data-id="84" type="text"></div>
+                                    <div class="mb-6" data-id="85"><input
+                                                class="flex h-10 w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 border-teal-300 focus:border-teal-500"
+                                                id="email" placeholder="your@email.com" data-id="86" type="email"></div>
+                                    <div class="mb-6" data-id="87"><textarea
+                                                class="flex min-h-[80px] w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 border-teal-300 focus:border-teal-500"
+                                                id="message" placeholder="Your message here..." data-id="88"></textarea>
+                                    </div>
+                                    <button class="w-full button bg-rose-500 text-white hover:bg-rose-600">
+                                          Enviar Mensaje
+                                    </button>
+                              </form>
+                        </div>
+                  </div>
+
+            </section>
+            <section class="bg-end-gradient mx-auto py-20 px-4">
+                  <div class="container mx-auto px-4 text-center" data-id="75">
+                        <h2 class="text-3xl font-bold mb-6 text-white" data-id="76">About Mango Studios</h2>
+                        <p class="max-w-2xl mx-auto text-lg mb-8 text-white" data-id="77">We're a team of passionate
+                              developers dedicated to creating innovative software solutions. With our fresh approach,
+                              we've helped businesses of all sizes transform their digital presence.</p>
+                              <button class="button bg-rose-500 text-white hover:bg-rose-600">
+                                    Unete a nuestro equipo
+                              </button>
+                  </div>
+            </section>
+      </main>
+      <footer class="w-full bg-slate-50 flex flex-col justify-center items-center h-28">
+            <div class="container mx-auto flex justify-between">
+                  <h4 class="text-2xl font-bold mb-4 md:mb-0 text-teal-700 flex items-center"> <img class="w-10" src="./assets/logo.png" alt=""> Mango Studios</h4>
+                  <div class="flex gap-2">
+                        <svg fill="#0f766e" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50">
+                              <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                          </svg>
+                          <svg fill="#0f766e" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50">
+                              <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+                          </svg>
+                          <svg fill="#0f766e" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50">
+                              <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                          </svg>
+                          <svg fill="#0f766e" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50">
+                              <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
+                              </svg>
+                  </div>
+            </div>
+            <p>© 2024 Mango Studios. All rights reserved.</p>
+      </footer>
+
+      <script>
+            const technologies = [
+                  { name: "HTML", logo: "./assets/html.svg" },
+                  { name: "CSS", logo: "./assets/css3.svg" },
+                  { name: "JavaScript", logo: "./assets/js.svg" },
+                  { name: "TailwindCSS", logo: "./assets/tailwind-css.svg" },
+                  { name: "Angular", logo: "./assets/angular.svg" },
+                  { name: "React", logo: "./assets/react.svg" },
+                  { name: "React Native", logo: "./assets/react-native.svg" },
+                  { name: "AWS", logo: "./assets/aws.svg" },
+                  { name: "Docker", logo: "./assets/docker.svg" },
+                  { name: "C#", logo: "./assets/c--.svg" },
+            ];
+
+            const techSlider = document.getElementById("tech-slider");
+            const itemsPerView = 5;
+            let currentIndex = 0;
+
+            technologies.forEach((tech) => {
+                  const techItem = document.createElement('div');
+                  techItem.className = "flex-shrink-0 md:w-1/5 w-4/5 px-4";
+                  techItem.innerHTML = `
+                    <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center h-40">
+                        <img src="${tech.logo}" alt="${tech.name}" class="h-20 w-20 object-contain mb-4" />
+                        <p class="text-center text-sm font-medium text-teal-600">${tech.name}</p>
+                    </div>`;
+                  techSlider.appendChild(techItem);
+            });
+
+            const initialTechItems = techSlider.children.length;
+            for (let i = 0; i < initialTechItems; i++) {
+                  const clonedItem = techSlider.children[i].cloneNode(true);
+                  techSlider.appendChild(clonedItem);
+            }
+
+            function moveCarousel() {
+                  currentIndex++;
+
+                  techSlider.style.transform = `translateX(-${(currentIndex * (100 / itemsPerView))}%)`;
+
+                  if (currentIndex >= initialTechItems) {
+                        // Resetea el carrusel al inicio
+                        setTimeout(() => {
+                              techSlider.style.transition = 'none';
+                              techSlider.style.transform = 'translateX(0)';
+                              currentIndex = 0; 
+
+                              setTimeout(() => {
+                                    techSlider.style.transition = 'transform 0.5s ease-in-out';
+                              }, 50);
+                        }, 500);
+                  }
+            }
+
+            // Inicia el carrusel automático
+            setInterval(moveCarousel, 2000); // Cambia de tecnología cada 3 segundos
+      </script>
+</body>
+
+</html>
